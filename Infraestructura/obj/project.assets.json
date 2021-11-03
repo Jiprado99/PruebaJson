@@ -123,11 +123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\Infraestructura.csproj",
+      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\Infraestructura\\Infraestructura.csproj",
       "projectName": "Infraestructura",
-      "projectPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\Infraestructura.csproj",
+      "projectPath": "C:\\Jprado\\JsonPrueba\\Infraestructura\\Infraestructura.csproj",
       "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\obj\\",
+      "outputPath": "C:\\Jprado\\JsonPrueba\\Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

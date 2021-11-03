@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kQOZQv7y68Rak8Ef2yX3/lhHHxzjqacy8QBrUGkAamTE3cMsIPMIqF/g/otbqfGI4IF79FR2nQP8Le0FNInypg==",
+  "dgSpecHash": "R1E6wBkNQQbqPR6zTRbY3oTNdmbje/yoYwYciipCVCFDmLSWTeA0YNk8Oi4ZS6dLimWNR77/DgYjK4kbWKD7gQ==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\Infraestructura.csproj",
+  "projectFilePath": "C:\\Jprado\\JsonPrueba\\Infraestructura\\Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

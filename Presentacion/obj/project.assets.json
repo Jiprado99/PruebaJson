@@ -195,11 +195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Presentacion\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\Presentacion\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Presentacion\\Presentacion.csproj",
+      "projectPath": "C:\\Jprado\\JsonPrueba\\Presentacion\\Presentacion.csproj",
       "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Presentacion\\obj\\",
+      "outputPath": "C:\\Jprado\\JsonPrueba\\Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -220,8 +220,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Jprado\\JsonPrueba\\PruebaJson\\Negocio\\Negocio.csproj": {
-              "projectPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Negocio\\Negocio.csproj"
+            "C:\\Jprado\\JsonPrueba\\Negocio\\Negocio.csproj": {
+              "projectPath": "C:\\Jprado\\JsonPrueba\\Negocio\\Negocio.csproj"
             }
           }
         }

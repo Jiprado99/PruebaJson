@@ -141,11 +141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Modelo\\Modelo.csproj",
+      "projectUniqueName": "C:\\Jprado\\JsonPrueba\\Modelo\\Modelo.csproj",
       "projectName": "Modelo",
-      "projectPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Modelo\\Modelo.csproj",
+      "projectPath": "C:\\Jprado\\JsonPrueba\\Modelo\\Modelo.csproj",
       "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Modelo\\obj\\",
+      "outputPath": "C:\\Jprado\\JsonPrueba\\Modelo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,8 +166,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\Infraestructura.csproj": {
-              "projectPath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Infraestructura\\Infraestructura.csproj"
+            "C:\\Jprado\\JsonPrueba\\Infraestructura\\Infraestructura.csproj": {
+              "projectPath": "C:\\Jprado\\JsonPrueba\\Infraestructura\\Infraestructura.csproj"
             }
           }
         }

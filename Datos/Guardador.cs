@@ -19,8 +19,11 @@ namespace Datos
 
         public void Guardar()
         {
+            var folderName = Path.Combine(Environment
+                .GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                , "CancionJson");
             string alfajorJson = JsonConvert.SerializeObject(Cancion, Formatting.Indented);
-            File.AppendAllText($"C:/Jprado/JsonAlfajor/Alfajores.json", alfajorJson);
+            File.AppendAllText(folderName, alfajorJson);
         }
 
         public Cancion Cancion { get; }

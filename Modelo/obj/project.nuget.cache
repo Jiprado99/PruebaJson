@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qEH6RpSn+YWuhnNvFoPuamqV+c0e+yTLu0FXwUIgZ54GNYr7hAZwszy9A5aoccQ/dBCzM3m3RvcoX7rQq1eRYw==",
+  "success": true,
+  "projectFilePath": "C:\\Jprado\\JsonPrueba\\PruebaJson\\Modelo\\Modelo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\jprado\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\jprado\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

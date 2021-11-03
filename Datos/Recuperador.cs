@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    public class Recuperador
+    static public class Recuperador
     {
-        public Cancion[] Recuperar()
+        static public Cancion[] Recuperar()
         {
             return JsonConvert.DeserializeObject<Cancion[]>(Read());
         }
 
-        private string Read()
+        static private string Read()
         {
             var filePath = Path.Combine(Environment
                 .GetFolderPath(Environment.SpecialFolder.MyDocuments)

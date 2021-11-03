@@ -16,3 +16,4 @@ C:\Jprado\JsonPrueba\Negocio\obj\Debug\net5.0\Negocio.csproj.CoreCompileInputs.c
 C:\Jprado\JsonPrueba\Negocio\obj\Debug\net5.0\Negocio.dll
 C:\Jprado\JsonPrueba\Negocio\obj\Debug\net5.0\ref\Negocio.dll
 C:\Jprado\JsonPrueba\Negocio\obj\Debug\net5.0\Negocio.pdb
+C:\Jprado\JsonPrueba\Negocio\obj\Debug\net5.0\Negocio.csproj.CopyComplete

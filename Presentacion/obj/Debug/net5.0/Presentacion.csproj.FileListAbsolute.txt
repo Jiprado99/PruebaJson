@@ -24,3 +24,4 @@ C:\Jprado\JsonPrueba\Presentacion\obj\Debug\net5.0\Presentacion.dll
 C:\Jprado\JsonPrueba\Presentacion\obj\Debug\net5.0\ref\Presentacion.dll
 C:\Jprado\JsonPrueba\Presentacion\obj\Debug\net5.0\Presentacion.pdb
 C:\Jprado\JsonPrueba\Presentacion\obj\Debug\net5.0\Presentacion.genruntimeconfig.cache
+C:\Jprado\JsonPrueba\Presentacion\obj\Debug\net5.0\Presentacion.csproj.CopyComplete

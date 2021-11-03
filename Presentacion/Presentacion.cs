@@ -26,6 +26,7 @@ namespace Presentacion
 
             public static void Presentar()
         {
+            Console.Clear();
             Console.WriteLine("Bienvenido al registro de canciones!");
             Console.WriteLine();
             Console.WriteLine("-Menu principal-");
@@ -46,7 +47,7 @@ namespace Presentacion
                         MenuCrear.Mostrar();
                         break;
                     case "ver":
-
+                        MenuRecuperar.Mostrar();
                         break;
                     case "salir":
                         Environment.Exit(0);

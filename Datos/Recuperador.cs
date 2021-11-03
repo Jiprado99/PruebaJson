@@ -18,8 +18,11 @@ namespace Datos
 
         private string Read()
         {
+            var filePath = Path.Combine(Environment
+                .GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                , "CancionJson/CancionJson.json");
             string cancionJson;
-            using (var reader = new StreamReader($"C:/Jprado/JsonAlfajor/Alfajores.json"))
+            using (var reader = new StreamReader(filePath))
             {
                 cancionJson = reader.ReadToEnd();
             }

@@ -1,0 +1,17 @@
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Datos.dll
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\ref\Datos.dll
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Infraestructura.dll
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Modelo.dll
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Modelo.pdb
+C:\Jprado\JsonPrueba\Datos\bin\Debug\net5.0\Infraestructura.pdb
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.dll
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.pdb

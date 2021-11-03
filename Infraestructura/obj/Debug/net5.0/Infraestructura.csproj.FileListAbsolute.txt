@@ -1,0 +1,12 @@
+C:\Jprado\JsonPrueba\Infraestructura\bin\Debug\net5.0\Infraestructura.deps.json
+C:\Jprado\JsonPrueba\Infraestructura\bin\Debug\net5.0\Infraestructura.dll
+C:\Jprado\JsonPrueba\Infraestructura\bin\Debug\net5.0\ref\Infraestructura.dll
+C:\Jprado\JsonPrueba\Infraestructura\bin\Debug\net5.0\Infraestructura.pdb
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.AssemblyReference.cache
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfoInputs.cache
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfo.cs
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.dll
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\ref\Infraestructura.dll
+C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.pdb

@@ -24,33 +24,39 @@ namespace Presentacion
         {
         }
 
-            static void Presentar()
+            public static void Presentar()
         {
-            Console.WriteLine("Ingrese el nombre de la canción:");
-            var nombre = Console.ReadLine();
+            Console.WriteLine("Bienvenido al registro de canciones!");
             Console.WriteLine();
-            Console.WriteLine("Ingrese los nombres de las Bandas o Artistas intérpretes, presione ESC para finalizar");
-            var artistas = Artistas();
+            Console.WriteLine("-Menu principal-");
             Console.WriteLine();
-            Console.WriteLine("Ingrese la duración de la cancion en formato minutos:segundos:");
-            var duracion = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese el nombre del album:");
-            var album = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese la fecha de salida en formato dia/mes/año:");
-            var fechaSalida = Console.ReadLine();
+            Console.WriteLine("Comandos disponibles:");
+            Console.WriteLine("- Registrar");
+            Console.WriteLine("          Permite registrar una nueva canción en el sistema.");
+            Console.WriteLine("- Ver");
+            Console.WriteLine("          Permite ver las canciones cargadas en el sistema.");
 
-            
-            var procesador = new Procesador(nombre, album, artistas, duracion, fechaSalida);
-            procesador.Crear();
-        }
+            bool comandoIncorrecto = true;
 
-        static string[] Artistas()
-        {
-            var artistas = new List<string>();
+            while (comandoIncorrecto != false)
+            {
+                switch (Console.ReadLine().ToLower())
+                {
+                    case "registrar":
+                        MenuCrear.Mostrar();
+                        break;
+                    case "ver":
 
-            return artistas.ToArray();
+                        break;
+                    case "salir":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("El Comando ingresado es incorrecto");
+                        comandoIncorrecto = true;
+                        break;
+                }
+            }
         }
     }
 }

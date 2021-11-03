@@ -11,7 +11,6 @@ C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.e
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
-C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.dll
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\ref\Datos.dll
 C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.pdb

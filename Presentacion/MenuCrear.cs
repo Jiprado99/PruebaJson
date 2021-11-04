@@ -18,7 +18,7 @@ namespace Presentacion
             var nombre = Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine("Ingrese los nombres de las Bandas o Artistas intérpretes, presione ESC para finalizar");
-            var artistas = Artistas();
+            var artistas = Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine("Ingrese la duración de la cancion en formato minutos:segundos:");
             var duracion = Console.ReadLine();
@@ -34,13 +34,6 @@ namespace Presentacion
             procesador.Crear();
 
             Presentacion.Presentar();
-        }
-
-        static string[] Artistas()
-        {
-            var artistas = new List<string>();
-
-            return artistas.ToArray();
         }
     }
 }

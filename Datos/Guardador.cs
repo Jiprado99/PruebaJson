@@ -12,20 +12,25 @@ namespace Datos
 {
     public class Guardador : IGuardaCancion
     {
-        public Guardador(Cancion cancion)
+        public Guardador(List<Cancion> cancion)
         {
             Cancion = cancion;
         }
 
         public void Guardar()
         {
+            
             var filePath = Path.Combine(Environment
                 .GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 , "CancionJson/CancionJson.json");
-            string cancionJson = JsonConvert.SerializeObject(Cancion, Formatting.Indented);
+            File.Delete(filePath);
+            CreadorFile.Crear(Path.Combine(Environment
+                .GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                , "CancionJson"), filePath);
+            string cancionJson = JsonConvert.SerializeObject(Cancion.ToArray(), Formatting.Indented);
             File.AppendAllText(filePath, cancionJson);
         }
 
-        public Cancion Cancion { get; }
+        public List<Cancion> Cancion { get; }
     }
 }

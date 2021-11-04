@@ -11,9 +11,10 @@ namespace Datos
 {
     static public class Recuperador
     {
-        static public Cancion[] Recuperar()
+        static public List<Cancion> Recuperar()
         {
-            return JsonConvert.DeserializeObject<Cancion[]>(Read());
+            var canciones = JsonConvert.DeserializeObject<List<Cancion>>(Read());
+            return canciones;
         }
 
         static private string Read()
@@ -21,6 +22,9 @@ namespace Datos
             var filePath = Path.Combine(Environment
                 .GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 , "CancionJson/CancionJson.json");
+            CreadorFile.Crear(Path.Combine(Environment
+                .GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                , "CancionJson"), filePath);
             string cancionJson;
             using (var reader = new StreamReader(filePath))
             {

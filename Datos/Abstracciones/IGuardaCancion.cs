@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Datos.Abstracciones
 {
-    public interface IGuardaCancion : ITieneCancion, IGuarda
+    interface IGuardaCancion : IGuarda
     {
+        List<Cancion> Cancion { get; }
     }
 }

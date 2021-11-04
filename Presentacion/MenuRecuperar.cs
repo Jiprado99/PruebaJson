@@ -14,20 +14,24 @@ namespace Presentacion
             Console.Clear();
             Console.WriteLine("Las canciones registradas son:");
             Console.WriteLine();
-
             var canciones = Recuperador.Recuperar();
             foreach (var cancion in canciones)
             {
                 Console.WriteLine();
                 Console.WriteLine($"Nombre: {cancion.Nombre}.");
-                string artistas = "";
-                foreach (var artista in cancion.Artistas)
-                {
-                    artistas = artistas + ", " + artista;
-                    artistas = artistas.Remove(artistas.Length - 2);
-                }
-                Console.WriteLine($"Artista/s: {artistas}.");
+                Console.WriteLine($"Artista: {cancion.Artistas}.");
+                Console.WriteLine($"Album: {cancion.Album}.");
+                Console.WriteLine($"Duracion: {cancion.Duracion}.");
+                Console.WriteLine($"Fecha de salida: {cancion.FechaSalida}.");
             }
+            Console.WriteLine();
+            Console.WriteLine("Presione Enter para volver al menú principal");
+            var tecla = Console.ReadKey(true).Key;
+            while (tecla != ConsoleKey.Enter)
+            {
+                tecla = Console.ReadKey(true).Key;
+            }
+            Presentacion.Presentar();
         }
     }
 }

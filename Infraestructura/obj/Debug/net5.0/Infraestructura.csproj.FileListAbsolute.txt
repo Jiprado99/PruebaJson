@@ -10,3 +10,15 @@ C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.Cor
 C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.dll
 C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\ref\Infraestructura.dll
 C:\Jprado\JsonPrueba\Infraestructura\obj\Debug\net5.0\Infraestructura.pdb
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\bin\Debug\net5.0\Infraestructura.deps.json
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\bin\Debug\net5.0\Infraestructura.dll
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\bin\Debug\net5.0\ref\Infraestructura.dll
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\bin\Debug\net5.0\Infraestructura.pdb
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.AssemblyReference.cache
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfoInputs.cache
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfo.cs
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.dll
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\ref\Infraestructura.dll
+C:\Users\J_IP\Desktop\PruebaJson-main\Infraestructura\obj\Debug\net5.0\Infraestructura.pdb

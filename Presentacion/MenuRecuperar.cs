@@ -12,8 +12,7 @@ namespace Presentacion
         static public void Mostrar() 
         {
             Console.Clear();
-            Console.WriteLine("Las canciones registradas son:");
-            Console.WriteLine();
+            Console.WriteLine("Las canciones registradas son:" + Environment.NewLine);
             var canciones = Recuperador.Recuperar();
             foreach (var cancion in canciones)
             {

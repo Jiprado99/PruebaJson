@@ -27,15 +27,15 @@ namespace Presentacion
             public static void Presentar()
         {
             Console.Clear();
-            Console.WriteLine("Bienvenido al registro de canciones!");
-            Console.WriteLine();
-            Console.WriteLine("-Menu principal-");
-            Console.WriteLine();
+            Console.WriteLine("Bienvenido al registro de canciones!" + Environment.NewLine);
+            Console.WriteLine("-Menu principal-" + Environment.NewLine);
             Console.WriteLine("Comandos disponibles:");
             Console.WriteLine("- Registrar");
             Console.WriteLine("          Permite registrar una nueva canción en el sistema.");
             Console.WriteLine("- Ver");
             Console.WriteLine("          Permite ver las canciones cargadas en el sistema.");
+            Console.WriteLine("- Salirr");
+            Console.WriteLine("          Regrese a Windows." + Environment.NewLine);
 
             bool comandoIncorrecto = true;
 

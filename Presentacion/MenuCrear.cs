@@ -12,27 +12,19 @@ namespace Presentacion
         static public void Mostrar()
         {
             Console.Clear();
-            Console.WriteLine("-Menu registrar Cancion-");
-            Console.WriteLine();
+            Console.WriteLine("-Menu registrar Cancion-" + Environment.NewLine);
             Console.WriteLine("Ingrese el nombre de la canción:");
             var nombre = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese el nombre del artista:");
+            Console.WriteLine(Environment.NewLine + "Ingrese el nombre del artista:");
             var artistas = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese la duración de la cancion en formato minutos:segundos:");
+            Console.WriteLine(Environment.NewLine + "Ingrese la duración de la cancion en formato minutos:segundos:");
             var duracion = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese el nombre del album:");
+            Console.WriteLine(Environment.NewLine + "Ingrese el nombre del album:");
             var album = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Ingrese la fecha de salida en formato dia/mes/año:");
+            Console.WriteLine(Environment.NewLine + "Ingrese la fecha de salida en formato dia/mes/año:");
             var fechaSalida = Console.ReadLine();
-
-
             var procesador = new Procesador(nombre, album, artistas, duracion, fechaSalida);
             procesador.Crear();
-
             Presentacion.Presentar();
         }
     }

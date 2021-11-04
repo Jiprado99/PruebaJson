@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    public static class CreadorFile
+    static public class CreadorCarpeta
     {
-        public static void Crear(string file)
+        static public void Crear(string path)
         {
-            if (!File.Exists(file))
-                File.Create(file);
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path);
         }
     }
 }

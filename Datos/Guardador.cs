@@ -19,14 +19,12 @@ namespace Datos
 
         public void Guardar()
         {
-            
-            var filePath = Path.Combine(Environment
+            var folderPath = Path.Combine(Environment
                 .GetFolderPath(Environment.SpecialFolder.MyDocuments)
-                , "CancionJson/CancionJson.json");
+                , "CancionJson");
+            var filePath = Path.Combine(folderPath, "CancionJson.json");
             File.Delete(filePath);
-            CreadorFile.Crear(Path.Combine(Environment
-                .GetFolderPath(Environment.SpecialFolder.MyDocuments)
-                , "CancionJson"), filePath);
+            CreadorCarpeta.Crear(folderPath);
             string cancionJson = JsonConvert.SerializeObject(Cancion.ToArray(), Formatting.Indented);
             File.AppendAllText(filePath, cancionJson);
         }

@@ -31,4 +31,3 @@ C:\Users\J_IP\Desktop\PruebaJson-main\Datos\obj\Debug\net5.0\Datos.csproj.CopyCo
 C:\Users\J_IP\Desktop\PruebaJson-main\Datos\obj\Debug\net5.0\Datos.dll
 C:\Users\J_IP\Desktop\PruebaJson-main\Datos\obj\Debug\net5.0\ref\Datos.dll
 C:\Users\J_IP\Desktop\PruebaJson-main\Datos\obj\Debug\net5.0\Datos.pdb
-C:\Jprado\JsonPrueba\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete

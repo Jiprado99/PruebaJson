@@ -17,7 +17,7 @@ namespace Presentacion
             Console.WriteLine("Ingrese el nombre de la canción:");
             var nombre = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Ingrese los nombres de las Bandas o Artistas intérpretes, presione ESC para finalizar");
+            Console.WriteLine("Ingrese el nombre del artista:");
             var artistas = Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine("Ingrese la duración de la cancion en formato minutos:segundos:");
